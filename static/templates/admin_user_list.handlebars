@@ -13,28 +13,28 @@
   {{/if}}
   <td>
     {{#if is_active}}
-      <button class="button deactivate btn-danger">
+      <button class="mat-button red deactivate">
         {{t "Deactivate" }}
       </button>
     {{else}}
-      <button class="button reactivate btn-warning">
+      <button class="mat-button yellow reactivate">
         {{t "Reactivate" }}
       </button>
     {{/if}}
     <span class="user-admin-settings">
       {{#if is_active_human}}
         {{#if is_admin}}
-          <button class="button remove-admin btn-danger">
+          <button class="mat-button red remove-admin">
             {{t "Remove admin" }}
           </button>
         {{else}}
-          <button class="button make-admin btn-warning">
+          <button class="mat-button yellow make-admin">
             {{t "Make admin" }}
           </button>
         {{/if}}
       {{/if}}
     </span>
-    <button class="button btn-primary open-user-form{{#unless is_active}} display-none{{/unless}}" title="{{t 'Edit user' }}" data-user-id="{{user_id}}">
+    <button class="mat-button blue open-user-form{{#unless is_active}} display-none{{/unless}}" title="{{t 'Edit user' }}" data-user-id="{{user_id}}">
         <i class="icon-vector-pencil"></i>
     </button>
     <div class='admin-user-status'>
