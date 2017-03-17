@@ -162,19 +162,6 @@
     color: #fff;
     box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
 }
-/* States */
-.new-style .mat-button:hover {
-    box-shadow: 0 3px 7px 0 rgba(0,0,0,0.14), 0 1px 9px 0 rgba(0,0,0,0.12), 0 3px 1px -3px rgba(0,0,0,0.2);
-    -webkit-filter: brightness(1.1);
-    -moz-filter: brightness(1.1);
-    filter: brightness(1.1);
-
-}
-.new-style .mat-button[disabled="disabled"] {
-    cursor: not-allowed;
-    background: #BDBDBD;
-    color: #fff;
-}
 
 /* Color Variations */
 .new-style .mat-button.blue {
@@ -188,6 +175,20 @@
 }
 .new-style .mat-button.yellow {
     background-color: #FFC107;
+}
+
+/* States */
+.new-style .mat-button:hover {
+    box-shadow: 0 3px 7px 0 rgba(0,0,0,0.14), 0 1px 9px 0 rgba(0,0,0,0.12), 0 3px 1px -3px rgba(0,0,0,0.2);
+    -webkit-filter: brightness(1.1);
+    -moz-filter: brightness(1.1);
+    filter: brightness(1.1);
+
+}
+.new-style .mat-button[disabled="disabled"] {
+    cursor: not-allowed;
+    background: #BDBDBD;
+    color: #fff;
 }
 /* Size Variations */
 .new-style .mat-button.large {
